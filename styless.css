@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header, .footer {
+    margin: 40px 20px 0px 20px;
+    height: 50px;
+    font-size: 0;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+.header li {
+    display: inline;
+}
+
+.header .logo {
+    width: 15%;
+}
+  
+.header .nav {
+    width: 65%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.header .nav ul li{
+    margin: 0px 25px 0px 25px;
+}
+
+.header .nav ul li a{
+    color: #025157;
+}
+
+.header a{
+    text-decoration: none;
+}
+  
+.header .act {
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header .act ul li{
+    margin: 0px 10px 0px 10px;
+}
+
+#signin{
+    color: #67b54b;
+}
+
+#get-started-free{
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: none;
+    border-radius: 5px;
+}
+
